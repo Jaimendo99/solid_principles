@@ -16,3 +16,12 @@ Este principio establece que una clase debe estar abierta para extensión, pero 
 - Este principio nos permite tener un código más robusto y menos propenso a errores.
 - Nos permite tener un código más mantenible, ya que al no tener que modificar el código fuente, se evitan errores en otras partes del código.
 - Nos permite tener un código más escalable, ya que se pueden añadir nuevas funcionalidades sin tener que modificar el código fuente.
+
+## Liskov Substitution Principle
+Este principio establece que las clases derivadas deben poder ser sustituidas por sus clases base sin afectar el comportamiento del programa.
+<img src="img_2.png"></img>
+
+### Reflexiones
+- Usar interfaces en lugar de herencia puede ser una buena forma de cumplir con este principio.
+- Este principio nos permite tener un código más mantenible y escalable.
+- Nos permite tener un código más fácil de probar, ya que al poder sustituir una clase derivada por su clase base, se pueden realizar pruebas unitarias de forma más sencilla.
