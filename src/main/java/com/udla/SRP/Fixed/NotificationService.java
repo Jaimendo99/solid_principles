@@ -1,4 +1,4 @@
-package SRP.Fixed;
+package com.udla.SRP.Fixed;
 
 public class NotificationService {
 

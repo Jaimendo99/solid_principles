@@ -1,4 +1,4 @@
-package SRP.Fixed;
+package com.udla.SRP.Fixed;
 
 public class UserManager {
     private final UserValidator userValidator;
