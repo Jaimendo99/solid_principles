@@ -34,3 +34,13 @@ Este principio establece que una clase no debe depender de interfaces que no uti
 - Este principio es muy útil para evitar la dependencia de interfaces que no se utilizan.
 - Nos permite tener un código más limpio y mantenible.
 - Nos permite tener un código más escalable, ya que se pueden añadir nuevas interfaces sin afectar a las clases que no las utilizan.
+
+
+## Dependency Inversion Principle
+Este principio establece que las clases de alto nivel no deben depender de las clases de bajo nivel, sino de abstracciones.
+<img src="img_4.png"></img>
+
+### Reflexiones
+- Este principio ayuda a reducir la dependencia entre clases.
+- Nos permite tener un un control mejor sobre cómo cada clase se instancia.
+- Nos permite tener un código más mantenible y escalable.
