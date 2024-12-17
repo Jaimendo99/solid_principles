@@ -25,3 +25,12 @@ Este principio establece que las clases derivadas deben poder ser sustituidas po
 - Usar interfaces en lugar de herencia puede ser una buena forma de cumplir con este principio.
 - Este principio nos permite tener un código más mantenible y escalable.
 - Nos permite tener un código más fácil de probar, ya que al poder sustituir una clase derivada por su clase base, se pueden realizar pruebas unitarias de forma más sencilla.
+
+## Interface Segregation Principle
+Este principio establece que una clase no debe depender de interfaces que no utilice.
+<img src="img_3.png"></img>
+
+### Reflexiones
+- Este principio es muy útil para evitar la dependencia de interfaces que no se utilizan.
+- Nos permite tener un código más limpio y mantenible.
+- Nos permite tener un código más escalable, ya que se pueden añadir nuevas interfaces sin afectar a las clases que no las utilizan.
